@@ -1,0 +1,12 @@
+{
+  "name": "PROJECT_NAME",
+  "version": "PROJECT_VERSION",
+  "description": "PROJECT_DESCRIPTION",
+  "main": "server.js",
+  "author": "PROJECT_AUTHOR",
+  "repository": "PROJECT_REPO",
+  "license": "ISC",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

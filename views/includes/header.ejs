@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <!-- Page Info -->
+        <title>PROJECT_TITLE</title>
+        <meta charset="utf-8">
+        <meta name="theme-color" content="#5AB8EB">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="images/icon.jpg">
+        <link rel="stylesheet" href="<%= app_path %>/libraries/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<%= app_path %>/libraries/fontawesome">
+        <link rel="stylesheet" href="<%= app_path %>/css/styles.css">
+        
+    </head>
+    <body>
+        <div id="header">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+                <div class="container">
+                    <a class="navbar-brand" href="/">PROJECT_TITLE</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item <%- (title == 'main') ? 'active' : ''%>">
+                          <a class="nav-link" href="/"><i class="fas fa-home"></i> Home</a>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container-fluid">
